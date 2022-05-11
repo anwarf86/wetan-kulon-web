@@ -2,13 +2,22 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h2 {
+    color: rgba(0, 0, 0, 0.65);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+/* navigation-start */
 .navbar {
     background-color: #354A4F;
     padding-left: 50px;
     padding-right: 50px;
 }
 .nav-link{
-    color: white;
     font-family: 'Poppins', sans-serif;
     margin-left: 40px;
     padding: 2px;
@@ -20,19 +29,14 @@
 .back {
     margin-top: -50px;
 }
-button a {
-    text-decoration: none;
-    color: white;
-}
-button a:hover {
-    text-decoration: none;
-    color: white;
-}
 .active a {
     color: #354A4F !important;
     background-color: #C4C4C4;
     border-radius: 10px;
 }
+/* navigation-end */
+
+/* jumbotron-start*/
 .jumbotron {
     background-color: #354A4F;
 }
@@ -49,6 +53,8 @@ button a:hover {
     margin-top: 30px;
     font-size: 20px;
 }
+/* jumbotron-end */
+/* aboutUs-start */
 .about-us {
     width: 70%;
 }
@@ -58,9 +64,16 @@ button a:hover {
 .about-us p {
     font-size: 20px;
 }
-footer {
-    background-color: #354A4F;
+/* aboutUs-end */
+button a {
     color: white;
+}
+button a:hover {
+    color: white;
+}
+/* main-start */
+i {
+    margin-right: 20px;
 }
 #content {
     padding-bottom: 20px;
@@ -68,12 +81,34 @@ footer {
 .story-item p {
     margin-bottom: 1px;
 }
-
+.category {
+    color: black;
+}
+.story-title a{
+    color: black;
+}
+.story-content .time-upload {
+    margin-top: -20px;
+}
+.story-image img {
+    width: 100%;
+}
+.story-writer {
+    font-weight: 900;
+}
+.writer {
+    font-size: 14px;
+}
+.story-list {
+    margin-top: -18px;
+}
+/* main-end */
 footer img {
     height: 60px;
 }
-i {
-    margin-right: 20px;
+footer {
+    background-color: #354A4F;
+    color: white;
 }
 
 
