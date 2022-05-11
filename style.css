@@ -20,6 +20,14 @@
 .back {
     margin-top: -50px;
 }
+button a {
+    text-decoration: none;
+    color: white;
+}
+button a:hover {
+    text-decoration: none;
+    color: white;
+}
 .active a {
     color: #354A4F !important;
     background-color: #C4C4C4;
