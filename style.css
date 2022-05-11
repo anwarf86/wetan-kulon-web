@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    background-color: #354A4F;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.nav-link{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+    padding: 2px;
+    font-weight: 900;
+}
+.navbar-nav {
+    text-align: right;
+}
+.back {
+    margin-top: -50px;
+}
+.active a {
+    color: #354A4F !important;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+}
+.jumbotron {
+    background-color: #354A4F;
+}
+.jumbotron h1 {
+    font-size: 10vw;
+    font-family: 'Futura', sans-serif;
+    color: white;
+}
+.jumbotron .caption {
+    font-size: 6vw;
+    margin-top: -20px;
+}
+.jumbotron button{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.about-us {
+    width: 70%;
+}
+.about-us h2 {
+    font-size: 40px;
+}
+.about-us p {
+    font-size: 20px;
+}
+footer {
+    background-color: #354A4F;
+    color: white;
+}
+#content {
+    padding-bottom: 20px;
+}
+.story-item p {
+    margin-bottom: 1px;
+}
+
+footer img {
+    height: 60px;
+}
+i {
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 580px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-link{
+        margin-left: 0px;
+    }
+    .active a {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    footer img {
+        height: 40px;
+    }
+    i {
+        margin-right: 10px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    footer #content {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer img {
+        width: 100%;
+        height: 100%;
+    }
+    footer p {
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+    .about-us p {
+        font-size: 16px;
+    }
+}
