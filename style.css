@@ -102,6 +102,17 @@ i {
 .story-list {
     margin-top: -18px;
 }
+.sharing {
+    width: 60%;
+}
+.faq h2 {
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.list-faq hr {
+    width: 95%;
+    margin: auto;
+}
 /* main-end */
 footer img {
     height: 60px;
